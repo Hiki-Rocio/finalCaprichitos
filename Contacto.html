@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caprichitos</title>
+    <link rel="icon" href="img/totoroAlasico.ico">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Qwitcher+Grypen:wght@400;700&family=Ruge+Boogie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <div class="division">
+    <header>
+        <div class="menu">
+            <div class="logos">
+              <img class="caprichito" src="img/logo.png" alt="Imagen Logo" >
+              <img class="totoro" src="img/totoroAlas.png" alt="Imagen totoro" >
+            </div>    
+            <nav id="menu2">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-bars "></i>
+                </label>
+                <div class="buscador">
+                  <form action="">
+                     <input type="text" name="buscar" id="busca" placeholder="Buscar">
+                     <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                </div>
+                <ul>
+                    <li><a class="b" href="Index.html">Home</a></li>
+                    <li><a href="jugueteria.html">Productos +</a>
+                       <ul>
+                          <li><a href="jugueteria.html">Jugueteria</a></li> 
+                          <li><a href="#electro">Electronica</a></li>
+                          <li><a href="#Mak">Make up/Accesorios</a></li>
+                          <li><a href="#coti">Cotillon/Reposteria</a></li>
+                          <li><a href="#marro">Marroquineria</a></li>
+                          <li><a href="#li">Libreria</a></li>
+                          <li><a href="#baz">Bazar</a></li>
+                          <li><a href="#ver">Verano</a></li>
+                          <li><a href="#indu">Indumentaria</a></li>
+                          <li><a href="#var">Varios</a></li>  
+                       </ul>
+                    </li>
+                    <li><a href="Index.html">¿Quienes somos?</a></li>
+                    <li><a href="Index.html">Ubicacion</a></li>
+                    <li><a> Preguntas frecuentes</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="#ingresos">Novedades</a></li>      
+                    <li><a href="carrito.html">Carrito</a> </li>        
+                </ul>
+            </nav>
+          </div>
+    </header>
+    <main>
+        <div class="contacto">
+            <h1>Contacto</h1>
+        </div>
+        <br><br>
+        <div class="formulario">
+            <section>
+                <form action="https://formspree.io/f/mpwagkjj" method="POST">
+                    
+                   <label>Nombre:</label>
+                   <br>
+                   <input class="caja" size="30" type="text" name="nombre">
+                   <br/>
+                   <label>Telefono:</label>
+                   <br>
+                   <input class="caja" size="30" number="text" name="telefono">
+                   <br/>
+                   <label>Email:</label>
+                   <br>
+                   <input class="caja" size="30" type="text" name="email">
+                   <br/>
+                   <label>Mensaje</label>
+                   <br/>
+                   <textarea class="caja" name="message"></textarea>
+                   <br/>
+                   <input class="enviar" type="submit" value="Enviar">      
+                </form>                    
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="pie">
+            <h5>&copy;2024 Caprichitos. Todos los derechos reservados. </h1>
+         </div>
+    </footer>
+ </div>
+</body>
+</html>

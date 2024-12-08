@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caprichitos</title>
+    <link rel="icon" href="img/totoroAlasico.ico">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Qwitcher+Grypen:wght@400;700&family=Ruge+Boogie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="logos">
+              <img class="caprichito" src="img/logo.png" alt="Imagen Logo" >
+              <img class="totoro" src="img/totoroAlas.png" alt="Imagen totoro" >
+            </div>    
+            <nav id="menu2">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-bars "></i>
+                </label>
+                <div class="buscador">
+                  <form action="">
+                     <input type="text" name="buscar" id="busca" placeholder="Buscar">
+                     <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                </div>
+                <ul>
+                    <li><a class="b" href="Index.html">Home</a></li>
+                    <li><a href="jugueteria.html">Productos +</a>
+                       <ul>
+                          <li><a href="jugueteria.html">Jugueteria</a></li> 
+                          <li><a href="#electro">Electronica</a></li>
+                          <li><a href="#Mak">Make up/Accesorios</a></li>
+                          <li><a href="#coti">Cotillon/Reposteria</a></li>
+                          <li><a href="#marro">Marroquineria</a></li>
+                          <li><a href="#li">Libreria</a></li>
+                          <li><a href="#baz">Bazar</a></li>
+                          <li><a href="#ver">Verano</a></li>
+                          <li><a href="#indu">Indumentaria</a></li>
+                          <li><a href="#var">Varios</a></li>  
+                       </ul>
+                    </li>
+                    <li><a href="Index.html">¿Quienes somos?</a></li>
+                    <li><a href="Index.html">Ubicacion</a></li>
+                    <li><a> Preguntas frecuentes</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="#ingresos">Novedades</a></li>      
+                    <li><a href="carrito.html">Carrito</a> </li>     
+                </ul>
+            </nav>
+          </div>
+          <button id="btnPagar" onclick="pagar()">Pagar</button>
+          <button id="btnLimpiar" onclick="limpiarCarrito()">Vaciar Carrito</button>
+    </header>
+    <main>
+        <div class="juguetes">
+            <div id = "Autitos" class="card2">
+              <img  src="img/autitosfriccion.jpg" alt="Imagen autito"><br>
+              <button id="btnComprar" onclick="agregarProducto('Autitos', 8200)"class="bot2">Comprar</button>
+              <br>
+              <br>
+              <button class = "bot3" onclick="agregarParrafo()">Descripcion</button>
+
+            </div>
+            <div id = "autitoconluz" class="card2">
+               <img src="img/autoslocos.jpg" alt="hacha pirata"><br>
+               <button id="btnComprar" onclick="agregarProducto('autitoconluz', 8000)"class="bot2">Comprar</button>
+               <br>
+               <br>
+               <button class = "bot3" onclick="agregarParrafo2()">Descripcion</button>
+            </div>
+            <div id = "setdoctor" class="card2">
+               <img src="img/set de doctor.jpg" alt="mandala"><br>
+               <button id="btnComprar" onclick="agregarProducto('setdoctor', 2700)"class="bot2">Comprar</button>
+               <br>
+               <br>
+               <button class = "bot3" onclick="agregarParrafo3()">Descripcion</button>
+            </div>
+            <div id = "popit" class="card2">
+               <img src="img/popitdino.jpg" alt="dinosaurio"><br>
+               <button id="btnComprar" onclick="agregarProducto('popit', 8500)"class="bot2">Comprar</button>
+               <br>
+               <br>
+               <button class = "bot3" onclick="agregarParrafo4()">Descripcion</button>
+            </div>
+            <div id ="dispenser" class="card2">
+               <img src="img/Dispenser.jpg" alt="rompecabezas"><br>
+               <button id="btnComprar" onclick="agregarProducto('dispenser', 10200)" class="bot2">Comprar</button>
+               <br>
+               <br>
+               <button class = "bot3" onclick="agregarParrafo5()">Descripcion</button>
+            </div>
+            <div id = "caballito" class="card2">
+                <img  src="img/caballito montable.jpg" alt="Imagen caballito"><br>
+                <button id="btnComprar" onclick="agregarProducto('caballito', 3900)" class="bot2">Comprar</button>
+                <br>
+                <br>
+                <button class = "bot3" onclick="agregarParrafo6()">Descripcion</button>
+              </div>
+              <div id = "hacha" class="card2">
+                 <img src="img/hacha pirata.jpg" alt="hacha pirata"><br>
+                 <button id="btnComprar" onclick="agregarProducto('hacha', 5500)" class="bot2">Comprar</button>
+                 <br>
+                 <br>
+                 <button class = "bot3"onclick="agregarParrafo7()">Descripcion</button>
+              </div>
+              <div id = "letras" class="card2">
+                 <img src="img/letras imantadas.jpg" alt="mandala"><br>
+                 <button id="btnComprar" onclick="agregarProducto('letras', 5900)" class="bot2">Comprar</button>
+                 <br>
+                 <br>
+                 <button class = "bot3" onclick="agregarParrafo8()">Descripcion</button>
+              </div>
+              <div id = "futbol" class="card2">
+                 <img src="img/pelota messi.jpg" alt="dinosaurio"><br>
+                 <button id="btnComprar" onclick="agregarProducto('futbol', 9900)" class="bot2">Comprar</button>
+                 <br>
+                 <br>
+                 <button class = "bot3" onclick="agregarParrafo9()">Descripcion</button>
+              </div>
+              <div id = "mascota" class="card2">
+                 <img src="img/´mascota virtual.jpg" alt="rompecabezas"><br>
+                 <button id="btnComprar" onclick="agregarProducto('mascota', 6000)" class="bot2">Comprar</button>
+                 <br>
+                 <br>
+                 <button class = "bot3" onclick="agregarParrafo10()">Descripcion</button>
+              </div>
+         </div>
+    <main>
+        <br>
+        <br>
+        <div id="carrito"></div>
+    <footer>
+      <section>
+        <div class="icons">
+            <a href="https://www.facebook.com/Mdcaprichitos" target="_blank">
+            <img class="redes" src="img/face.png" title="Pagina de Facebook"></a>
+            <a href="https://www.instagram.com/invites/contact/?igsh=199zva26a1tsr&utm_content=fpr7tpt" target="_blank">
+            <img class="redes" src="img/instagram.png" title="Enlace de instagram"></a>      
+            <a href="http://wa.me/+542216035850" target="_blank">
+            <img class="redes" src="img/whatsapp_2504957.png" title="whats app"></a>   
+          </div>
+          <br>
+        </div>   
+        <hr>
+        <div class="pie">
+           <h5>&copy;2024 Caprichitos. Todos los derechos reservados. </h1>
+        </div>
+      </section>
+    </footer>
+    <script src="./js/javascript.js"></script>
+</body>
+</html>

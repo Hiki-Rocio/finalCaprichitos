@@ -1,0 +1,2 @@
+Este proyecto esta basado en mi emprendiemiento de jugueteria y regaleria. Donde se van a encontrar todos los productos disponibles separados por categorias.
+Para esto realizamos en visualcode la estructura de la pagina en HTML, con sus respectivas etiquetas, Css con sus estilos.
